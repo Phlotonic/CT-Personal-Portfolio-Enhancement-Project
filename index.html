@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam Dryden</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Home Page/Section -->
+    <section id="home" style="text-align: center;">
+        <h1 style="font-size: 100px; background: linear-gradient(45deg, #0026ff, #4c00ff); -webkit-background-clip: text; color: transparent;">Adam Dryden</h1>
+        <img src="me red shirt.jpg" alt="Profile Picture" class="resized-image"> <!-- Profile picture -->
+        <p>Hi, I'm Adam Dryden. Welcome to my portfolio!</p> <!-- Brief bio and welcome message -->
+        <p>Follow me on:
+            <a href="https://github.com/Phlotonic">Github | </a>
+            <a href="https://www.linkedin.com/in/adam-dryden-34b11276/">LinkedIn | </a>
+            <a href="https://medium.com/@adamdryden">Medium</a>
+        </p>
+    </section>
+
+    <!-- About Me Page/Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p><strong>Background:</strong> Over 20 years of experience in digital literacy, with 5 years in programming languages like Python, HTML/CSS, and JavaScript. Currently pursuing a Software Engineering Certificate at Coding Temple, graduating in early 2025. Fascinated by computers since childhood, aspiring to build video games.</p>
+        <p><strong>Education:</strong> Associate of Science in Applied Computing (Incomplete), Golden Gate University; Software Engineering Certificate (Pending), Coding Temple.</p>
+        <p><strong>Career Goals:</strong> To build a distributed technology enterprise, empowering people with adaptive, accessible technology.</p>
+        <p><strong>Personal Interests:</strong> Art, Coding, Family, Gardening, Gaming, Writing.</p>
+    </section>
+    
+
+    <!-- Projects Page/Section -->
+    <section id="projects">
+        <h2 style="text-align: center;">Projects</h2>
+        <div class="project">
+            <h3>RESTful E-Commerce API</h3>
+            <img src="project1.jpeg" alt="Project Image"> <!-- Project image -->
+            <p>Description: A RESTful API for an e-commerce platform using Flask, SQLAlchemy, and Marshmallow. It provides endpoints for managing customers, products, orders, and customer accounts.</p>
+            <p>Technologies Used: VSCode, Python, SQL, Flask, Marshmallow, Postman, SQLAlchemy</p>
+            <a href="https://github.com/Phlotonic/CT-E-Commerce-API-Mini-Project">View Project</a> <!-- Link to project -->
+        </div>
+        <div class="project">
+            <h3>Library Database Management System</h3>
+            <img src="project2.jpeg" width="600px" alt="Project Image"> <!-- Project image -->
+            <p>Description: A Library Management System, now with integrated database and database functionality!</p>
+            <p>Technologies Used: VSCode, Python, SQL</p>
+            <a href="https://github.com/Phlotonic/CT-Library-Management-System-with-Database-Integration-Mini-Project">View Project</a> <!-- Link to project -->
+        </div>
+    </section>
+
+    <!-- Skills Page/Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+            <p>Front-End | Web Development</p>
+            <div class="skill-bar">
+                <div class="skill-level html-skill" data-years="5" data-width="38.4615384615%">
+                    <span class="skill-text">HTML: 5 years</span>
+                </div>
+                <div class="skill-level css-skill" data-years="5" data-width="38.4615384615%">
+                    <span class="skill-text">CSS: 5 years</span>
+                </div>
+                <div class="skill-level js-skill" data-years="3" data-width="23.0769230769%">
+                    <span class="skill-text">JavaScript: 3 years</span>
+                </div>
+            </div>
+            <p>Back-End | Database Development</p>
+            <div class="skill-bar">
+                <div class="skill-level py-skill" data-years="5" data-width="50%">
+                    <span class="skill-text">Python: 5 years</span>
+                </div>
+                <div class="skill-level sql-skill" data-years="1" data-width="10%">
+                    <span class="skill-text">SQL: 1 year</span>
+                </div>
+                <div class="skill-level flask-skill" data-years="1" data-width="10%">
+                    <span class="skill-text">Flask: 1 year</span>
+                </div>
+                <div class="skill-level marshmallow-skill" data-years="1" data-width="10%">
+                    <span class="skill-text">Marshmallow: 1 year</span>
+                </div>
+                <div class="skill-level postman-skill" data-years="1" data-width="10%">
+                    <span class="skill-text">Postman: 1 year</span>
+                </div>
+                <div class="skill-level sqlalchemy-skill" data-years="1" data-width="10%">
+                    <span class="skill-text">SQLAlchemy: 1 year</span>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Repeat the above div for more skills -->
+    </section>
+
+    <!-- Contact Page/Section -->
+    <section id="contact" style="text-align: center">
+        <h2>Contact</h2>
+        <form action="/submit" method="post"> <!-- Contact form -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required> <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required> <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea> <br>
+            <button type="submit">Send</button>
+        </form>
+        <p>Email: <a href="mailto:adryden508@gmail.com">click here</a></p> <!-- Email address -->
+        <p>Follow me on:
+            <a href="https://github.com/Phlotonic">Github | </a>
+            <a href="https://www.linkedin.com/in/adam-dryden-34b11276/">LinkedIn | </a>
+            <a href="https://medium.com/@adamdryden">Medium</a>
+        </p> <!-- Social media links -->
+    </section>
+</body>
+</html>
