@@ -42,7 +42,7 @@ strong {
 }
 
 a {
-    color: #007bff; /* Blue link color */
+    color: #33FCFF; /* Cyan link color */
     text-decoration: none;
     transition: color 0.3s ease; /* Smooth transition for link hover effect */
 }
